@@ -1,10 +1,10 @@
 body {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center;     /* Centraliza verticalmente */
-    min-height: 100vh;       /* Garante que o corpo ocupe toda a altura da tela */
-    margin: 0;               /* Remove margens padrão */
-    flex-direction: column;  /* Coloca as divs em uma coluna, se desejar */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;       
+    flex-direction: column;
 }
 
 #Aguia {
