@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: olivedrab;
+    position: relative;
+    left: -190px;
+}
+
+h2 {
+    margin: 5px;
+}
+
+.caixa {
+    background-color: beige;
+    width: 850px;
+    border: solid 1px black;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+pre {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3%;
+}
+
+hr {
+    border-top: 2px dotted black;
+}
+
+img {
+    float: left;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+}
+
+footer {
+    align-self: flex-start;
+}
