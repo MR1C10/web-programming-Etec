@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;       
+  flex-direction: column;
+}
+
+
+table, th, td {
+    border:1px solid purple;
+  }
+
+#golden{
+    background-image: url("https://cobasi.vteximg.com.br/arquivos/ids/939252/racao-golden-special-para-caes-adultos-frango-e-carne-3310549-15kg-Frente.jpg?v=638122446453130000");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 260px;
+}
+
+#pedigree{
+    background-image: url("https://images-americanas.b2w.io/produtos/4250768400/imagens/racao-para-caes-pedigree-adultos-carne-frango-e-cereais-1kg/4250768400_1_large.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 260px;
+}
+
+#magnus{
+    background-image: url("https://m.media-amazon.com/images/I/81Sf7ZcLNGL.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 260px;
+}
