@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px; /* Tamanho maior para o título */
+    font-weight: bold;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+.subheading {
+    text-align: center;
+    color: #007bff; /* Cor de destaque azul */
+    font-size: 20px; /* Tamanho maior para o subtítulo */
+    font-weight: bold; /* Negrito no subtítulo */
+    letter-spacing: 1px; /* Espaçamento suave entre as letras */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Sombra suave no subtítulo */
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+}
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.input-group input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #0056b3;
+}
